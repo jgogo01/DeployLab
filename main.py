@@ -8,4 +8,4 @@ async def main():
     return {"Hello": "World"}
 
 nest_asyncio.apply()
-uvicorn.run(app, host="0.0.0.0")
+uvicorn.run(app, host="0.0.0.0", port=8000)
